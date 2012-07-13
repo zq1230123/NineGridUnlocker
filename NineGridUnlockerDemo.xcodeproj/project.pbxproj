@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F82865E15AFC847002F1691 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F82865D15AFC847002F1691 /* UIKit.framework */; };
+		7F82866015AFC847002F1691 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F82865F15AFC847002F1691 /* Foundation.framework */; };
+		7F82866215AFC847002F1691 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F82866115AFC847002F1691 /* CoreGraphics.framework */; };
+		7F82866815AFC847002F1691 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F82866615AFC847002F1691 /* InfoPlist.strings */; };
+		7F82866A15AFC847002F1691 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F82866915AFC847002F1691 /* main.m */; };
+		7F82866E15AFC847002F1691 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F82866D15AFC847002F1691 /* AppDelegate.m */; };
+		7F82867115AFC847002F1691 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F82867015AFC847002F1691 /* ViewController.m */; };
+		7F82867415AFC847002F1691 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F82867215AFC847002F1691 /* ViewController_iPhone.xib */; };
+		7F82867715AFC847002F1691 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F82867515AFC847002F1691 /* ViewController_iPad.xib */; };
+		7F82867F15AFC847002F1691 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F82867E15AFC847002F1691 /* SenTestingKit.framework */; };
+		7F82868015AFC847002F1691 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F82865D15AFC847002F1691 /* UIKit.framework */; };
+		7F82868115AFC847002F1691 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F82865F15AFC847002F1691 /* Foundation.framework */; };
+		7F82868915AFC847002F1691 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F82868715AFC847002F1691 /* InfoPlist.strings */; };
+		7F82868C15AFC847002F1691 /* NineGridUnlockerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F82868B15AFC847002F1691 /* NineGridUnlockerDemoTests.m */; };
+		7F82869A15AFC887002F1691 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F82869615AFC887002F1691 /* check.png */; };
+		7F82869B15AFC887002F1691 /* NineGridUnlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F82869815AFC887002F1691 /* NineGridUnlockView.m */; };
+		7F82869C15AFC887002F1691 /* uncheck.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F82869915AFC887002F1691 /* uncheck.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F82868215AFC847002F1691 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F82865015AFC847002F1691 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F82865815AFC847002F1691;
+			remoteInfo = NineGridUnlockerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F82865915AFC847002F1691 /* NineGridUnlockerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NineGridUnlockerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F82865D15AFC847002F1691 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7F82865F15AFC847002F1691 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7F82866115AFC847002F1691 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7F82866515AFC847002F1691 /* NineGridUnlockerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NineGridUnlockerDemo-Info.plist"; sourceTree = "<group>"; };
+		7F82866715AFC847002F1691 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7F82866915AFC847002F1691 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F82866B15AFC847002F1691 /* NineGridUnlockerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NineGridUnlockerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		7F82866C15AFC847002F1691 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F82866D15AFC847002F1691 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F82866F15AFC847002F1691 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7F82867015AFC847002F1691 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7F82867315AFC847002F1691 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		7F82867615AFC847002F1691 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		7F82867D15AFC847002F1691 /* NineGridUnlockerDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NineGridUnlockerDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F82867E15AFC847002F1691 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		7F82868615AFC847002F1691 /* NineGridUnlockerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NineGridUnlockerDemoTests-Info.plist"; sourceTree = "<group>"; };
+		7F82868815AFC847002F1691 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7F82868A15AFC847002F1691 /* NineGridUnlockerDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NineGridUnlockerDemoTests.h; sourceTree = "<group>"; };
+		7F82868B15AFC847002F1691 /* NineGridUnlockerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NineGridUnlockerDemoTests.m; sourceTree = "<group>"; };
+		7F82869615AFC887002F1691 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		7F82869715AFC887002F1691 /* NineGridUnlockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NineGridUnlockView.h; sourceTree = "<group>"; };
+		7F82869815AFC887002F1691 /* NineGridUnlockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NineGridUnlockView.m; sourceTree = "<group>"; };
+		7F82869915AFC887002F1691 /* uncheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uncheck.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F82865615AFC847002F1691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F82865E15AFC847002F1691 /* UIKit.framework in Frameworks */,
+				7F82866015AFC847002F1691 /* Foundation.framework in Frameworks */,
+				7F82866215AFC847002F1691 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F82867915AFC847002F1691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F82867F15AFC847002F1691 /* SenTestingKit.framework in Frameworks */,
+				7F82868015AFC847002F1691 /* UIKit.framework in Frameworks */,
+				7F82868115AFC847002F1691 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F82864E15AFC847002F1691 = {
+			isa = PBXGroup;
+			children = (
+				7F82869515AFC887002F1691 /* NineGridUnlockerView */,
+				7F82866315AFC847002F1691 /* NineGridUnlockerDemo */,
+				7F82868415AFC847002F1691 /* NineGridUnlockerDemoTests */,
+				7F82865C15AFC847002F1691 /* Frameworks */,
+				7F82865A15AFC847002F1691 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F82865A15AFC847002F1691 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F82865915AFC847002F1691 /* NineGridUnlockerDemo.app */,
+				7F82867D15AFC847002F1691 /* NineGridUnlockerDemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F82865C15AFC847002F1691 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F82865D15AFC847002F1691 /* UIKit.framework */,
+				7F82865F15AFC847002F1691 /* Foundation.framework */,
+				7F82866115AFC847002F1691 /* CoreGraphics.framework */,
+				7F82867E15AFC847002F1691 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F82866315AFC847002F1691 /* NineGridUnlockerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7F82866C15AFC847002F1691 /* AppDelegate.h */,
+				7F82866D15AFC847002F1691 /* AppDelegate.m */,
+				7F82866F15AFC847002F1691 /* ViewController.h */,
+				7F82867015AFC847002F1691 /* ViewController.m */,
+				7F82867215AFC847002F1691 /* ViewController_iPhone.xib */,
+				7F82867515AFC847002F1691 /* ViewController_iPad.xib */,
+				7F82866415AFC847002F1691 /* Supporting Files */,
+			);
+			path = NineGridUnlockerDemo;
+			sourceTree = "<group>";
+		};
+		7F82866415AFC847002F1691 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F82866515AFC847002F1691 /* NineGridUnlockerDemo-Info.plist */,
+				7F82866615AFC847002F1691 /* InfoPlist.strings */,
+				7F82866915AFC847002F1691 /* main.m */,
+				7F82866B15AFC847002F1691 /* NineGridUnlockerDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F82868415AFC847002F1691 /* NineGridUnlockerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F82868A15AFC847002F1691 /* NineGridUnlockerDemoTests.h */,
+				7F82868B15AFC847002F1691 /* NineGridUnlockerDemoTests.m */,
+				7F82868515AFC847002F1691 /* Supporting Files */,
+			);
+			path = NineGridUnlockerDemoTests;
+			sourceTree = "<group>";
+		};
+		7F82868515AFC847002F1691 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F82868615AFC847002F1691 /* NineGridUnlockerDemoTests-Info.plist */,
+				7F82868715AFC847002F1691 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F82869515AFC887002F1691 /* NineGridUnlockerView */ = {
+			isa = PBXGroup;
+			children = (
+				7F82869615AFC887002F1691 /* check.png */,
+				7F82869715AFC887002F1691 /* NineGridUnlockView.h */,
+				7F82869815AFC887002F1691 /* NineGridUnlockView.m */,
+				7F82869915AFC887002F1691 /* uncheck.png */,
+			);
+			path = NineGridUnlockerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F82865815AFC847002F1691 /* NineGridUnlockerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F82868F15AFC847002F1691 /* Build configuration list for PBXNativeTarget "NineGridUnlockerDemo" */;
+			buildPhases = (
+				7F82865515AFC847002F1691 /* Sources */,
+				7F82865615AFC847002F1691 /* Frameworks */,
+				7F82865715AFC847002F1691 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NineGridUnlockerDemo;
+			productName = NineGridUnlockerDemo;
+			productReference = 7F82865915AFC847002F1691 /* NineGridUnlockerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F82867C15AFC847002F1691 /* NineGridUnlockerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F82869215AFC847002F1691 /* Build configuration list for PBXNativeTarget "NineGridUnlockerDemoTests" */;
+			buildPhases = (
+				7F82867815AFC847002F1691 /* Sources */,
+				7F82867915AFC847002F1691 /* Frameworks */,
+				7F82867A15AFC847002F1691 /* Resources */,
+				7F82867B15AFC847002F1691 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F82868315AFC847002F1691 /* PBXTargetDependency */,
+			);
+			name = NineGridUnlockerDemoTests;
+			productName = NineGridUnlockerDemoTests;
+			productReference = 7F82867D15AFC847002F1691 /* NineGridUnlockerDemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F82865015AFC847002F1691 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = bupt;
+			};
+			buildConfigurationList = 7F82865315AFC847002F1691 /* Build configuration list for PBXProject "NineGridUnlockerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7F82864E15AFC847002F1691;
+			productRefGroup = 7F82865A15AFC847002F1691 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F82865815AFC847002F1691 /* NineGridUnlockerDemo */,
+				7F82867C15AFC847002F1691 /* NineGridUnlockerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F82865715AFC847002F1691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F82866815AFC847002F1691 /* InfoPlist.strings in Resources */,
+				7F82867415AFC847002F1691 /* ViewController_iPhone.xib in Resources */,
+				7F82867715AFC847002F1691 /* ViewController_iPad.xib in Resources */,
+				7F82869A15AFC887002F1691 /* check.png in Resources */,
+				7F82869C15AFC887002F1691 /* uncheck.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F82867A15AFC847002F1691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F82868915AFC847002F1691 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7F82867B15AFC847002F1691 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F82865515AFC847002F1691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F82866A15AFC847002F1691 /* main.m in Sources */,
+				7F82866E15AFC847002F1691 /* AppDelegate.m in Sources */,
+				7F82867115AFC847002F1691 /* ViewController.m in Sources */,
+				7F82869B15AFC887002F1691 /* NineGridUnlockView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F82867815AFC847002F1691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F82868C15AFC847002F1691 /* NineGridUnlockerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F82868315AFC847002F1691 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F82865815AFC847002F1691 /* NineGridUnlockerDemo */;
+			targetProxy = 7F82868215AFC847002F1691 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F82866615AFC847002F1691 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F82866715AFC847002F1691 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7F82867215AFC847002F1691 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F82867315AFC847002F1691 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		7F82867515AFC847002F1691 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F82867615AFC847002F1691 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		7F82868715AFC847002F1691 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F82868815AFC847002F1691 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F82868D15AFC847002F1691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F82868E15AFC847002F1691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F82869015AFC847002F1691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NineGridUnlockerDemo/NineGridUnlockerDemo-Prefix.pch";
+				INFOPLIST_FILE = "NineGridUnlockerDemo/NineGridUnlockerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7F82869115AFC847002F1691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NineGridUnlockerDemo/NineGridUnlockerDemo-Prefix.pch";
+				INFOPLIST_FILE = "NineGridUnlockerDemo/NineGridUnlockerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7F82869315AFC847002F1691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NineGridUnlockerDemo.app/NineGridUnlockerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NineGridUnlockerDemo/NineGridUnlockerDemo-Prefix.pch";
+				INFOPLIST_FILE = "NineGridUnlockerDemoTests/NineGridUnlockerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7F82869415AFC847002F1691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NineGridUnlockerDemo.app/NineGridUnlockerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NineGridUnlockerDemo/NineGridUnlockerDemo-Prefix.pch";
+				INFOPLIST_FILE = "NineGridUnlockerDemoTests/NineGridUnlockerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F82865315AFC847002F1691 /* Build configuration list for PBXProject "NineGridUnlockerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F82868D15AFC847002F1691 /* Debug */,
+				7F82868E15AFC847002F1691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F82868F15AFC847002F1691 /* Build configuration list for PBXNativeTarget "NineGridUnlockerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F82869015AFC847002F1691 /* Debug */,
+				7F82869115AFC847002F1691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F82869215AFC847002F1691 /* Build configuration list for PBXNativeTarget "NineGridUnlockerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F82869315AFC847002F1691 /* Debug */,
+				7F82869415AFC847002F1691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F82865015AFC847002F1691 /* Project object */;
+}
