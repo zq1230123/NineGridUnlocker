@@ -19,6 +19,7 @@
 {
     [super viewDidLoad];
     NineGridUnlockView* v = [[NineGridUnlockView alloc] initWithFrame:self.view.bounds];
+    //v.strokeColor = [UIColor greenColor];
     [self.view addSubview:v];
 }
 

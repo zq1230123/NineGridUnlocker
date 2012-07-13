@@ -17,6 +17,7 @@
 - (BOOL)_addPath:(NSInteger)index;
 - (BOOL)_checked:(NSInteger)index;
 - (void)_handlePoint:(CGPoint)point;
+- (void)_initView;
 
 @end
 
@@ -29,12 +30,13 @@
 @synthesize uncheckImage = _uncheckImage;
 @synthesize buttons = _buttons;
 @synthesize paths = _paths;
+@synthesize strokeColor = _strokeColor;
 
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
     if (self) {
-        [self initView];
+        [self _initView];
     }
     return self;
 }
@@ -42,7 +44,7 @@
 - (id)initWithCoder:(NSCoder *)aDecoder{
     self = [super initWithCoder:aDecoder];
     if (self) {
-        [self initView];
+        [self _initView];
     }
     return self;
 }
@@ -115,7 +117,8 @@
     CGContextSetLineCap(context, kCGLineCapRound);
     CGContextSetLineWidth(context, 15.0);
     CGContextSetAllowsAntialiasing(context, YES);
-    CGContextSetRGBStrokeColor(context, 1.0, 0.0, 0.0, 1.0);
+    CGContextSetStrokeColorWithColor(context, _strokeColor.CGColor);
+    //CGContextSetRGBStrokeColor(context, 1.0, 0.0, 0.0, 1.0);
     CGContextBeginPath(context);
     for (NSInteger i=0; i<[_paths count]; i++) {
         NSInteger index = [[_paths objectAtIndex:i] intValue];
@@ -141,13 +144,16 @@
     return NO;
 }
 
-- (void)initView{
+- (void)_initView{
     if (!_checkImage) {
         self.checkImage = [UIImage imageNamed:@"check.png"];
     }
     
     if (!_uncheckImage) {
         self.uncheckImage = [UIImage imageNamed:@"uncheck.png"];
+    }
+    if (!_strokeColor) {
+        self.strokeColor = [UIColor redColor];
     }
     self.imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)];
     [self addSubview:_imageView];
@@ -221,6 +227,7 @@
 */
 
 - (void)dealloc{
+    [_strokeColor release];
     [_imageView release];
     [_checkImage release];
     [_uncheckImage release];

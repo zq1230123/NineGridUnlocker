@@ -15,6 +15,7 @@
     NSMutableArray* _buttons;
     NSMutableArray* _paths;
     CGPoint _currentPoint;
+    UIColor* _strokeColor;
 }
 
 @property (nonatomic,retain) UIImageView* imageView;
@@ -22,8 +23,8 @@
 @property (nonatomic,retain) UIImage* uncheckImage;
 @property (nonatomic,retain) NSMutableArray* buttons;
 @property (nonatomic,retain) NSMutableArray* paths;
+@property (nonatomic,retain) UIColor* strokeColor;
 
 - (void)resetView;
-- (void)initView;
 
 @end
