@@ -3,7 +3,7 @@ NineGridUnlocker
 
 Simulate the nine grid unlocker in Android.
 
-Just put the code below to your project:
+Drag the NineGridUnlockerView folder to your project and just put the code below to your *viewDidload* method.
 
     NineGridUnlockView* v = [[NineGridUnlockView alloc] initWithFrame:self.view.bounds];
     [self.view addSubview:v];
