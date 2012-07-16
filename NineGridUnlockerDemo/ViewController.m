@@ -20,7 +20,12 @@
     [super viewDidLoad];
     NineGridUnlockView* v = [[NineGridUnlockView alloc] initWithFrame:self.view.bounds];
     //v.strokeColor = [UIColor greenColor];
+    v.delegate = self;
     [self.view addSubview:v];
+}
+
+- (void)unlockerView:(NineGridUnlockView *)unlockerView didFinished:(NSArray *)points{
+    NSLog(@"%@",points);
 }
 
 - (void)viewDidUnload

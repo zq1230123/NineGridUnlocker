@@ -464,6 +464,7 @@
 				7F82869115AFC847002F1691 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F82869215AFC847002F1691 /* Build configuration list for PBXNativeTarget "NineGridUnlockerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +473,7 @@
 				7F82869415AFC847002F1691 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

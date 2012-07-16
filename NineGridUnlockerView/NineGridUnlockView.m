@@ -31,6 +31,7 @@
 @synthesize buttons = _buttons;
 @synthesize paths = _paths;
 @synthesize strokeColor = _strokeColor;
+@synthesize delegate = _delegate;
 
 - (id)initWithFrame:(CGRect)frame
 {
@@ -212,9 +213,11 @@
     if ([self.paths count] > 0) {
         [self _drawLines:NO];
     }
+    NSMutableArray* delegateArray = [NSMutableArray arrayWithCapacity:9];
     for (NSNumber* index in _paths) {
-        NSLog(@"%@",index);
+        [delegateArray addObject:index];
     }
+    [_delegate unlockerView:self didFinished:delegateArray];
 }
 
 /*

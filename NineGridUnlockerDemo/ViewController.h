@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NineGridUnlockView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<NinGridUnlockViewDelegate>{
+    
+}
 
 @end
